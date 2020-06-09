@@ -1,0 +1,141 @@
+/*- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+  position: relative;
+  min-height: 100vh;
+}
+h1 {
+  color: rgb(43, 179, 177);
+  font-size: 1.5em;
+}
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.1em;
+}
+h3 {
+  margin: 5px 0;
+}
+span {
+  display: inline-block;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  line-height: 1.5;
+  color: rgb(181, 231, 232);
+
+}
+.top-container {
+  padding: 10px 30px;
+  background-color: white;
+}
+.head-p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.box {
+  color: hsl(204, 43%, 93%);
+  padding: 30px;
+
+}
+
+.left-box {
+  background-color: rgb(43, 179, 177);
+}
+
+.right-box {
+  background-color: rgb(74, 190, 189);
+  border-radius: 0 0 10px 10px;
+  
+}
+.cost {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.per-month {
+  color: rgb(126, 211, 214);
+  margin-left: 12px;
+  position: relative;
+  bottom: 8px;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+
+}
+.BUTTON {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Karla', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   padding: 15px;
+   background-color: #BEE032;
+   box-shadow: 0px 7px 10px 0px #31A189;
+   -webkit-box-shadow: 0px 7px 10px 0px #31A189;
+   -moz-box-shadow: 0px 7px 10px 0px #31A189;
+   border: solid #459E5C 1px;
+   text-decoration: none;
+   cursor: pointer;
+   text-align: center;
+   text-shadow: 1px 1px 1px #000000;
+   display: inline-block;
+   width: calc(100% - 60px);
+}
+
+.BUTTON:hover {
+   border: solid #459E5C 1px;
+   background: rgb(142, 239, 105);
+   background-image: -webkit-linear-gradient(top, rgb(142, 239, 105), rgb(40, 182, 189));
+   background-image: -moz-linear-gradient(top, rgb(142, 239, 105), rgb(40, 182, 189));
+   background-image: -ms-linear-gradient(top, rgb(142, 239, 105), rgb(40, 182, 189));
+   background-image: -o-linear-gradient(top, rgb(142, 239, 105), rgb(40, 182, 189));
+   background-image: linear-gradient(to bottom, rgb(142, 239, 105), rgb(40, 182, 189));
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   
+}
+
+@media only screen and (min-width: 600px) { 
+  footer {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    left: calc(50% - 114px);
+}
+  .box {
+    width: calc(50% - 60px);
+    height: 214px;
+    margin: 0;
+  }
+  .left-box {
+    border-radius: 0 0 0 10px;
+  }
+  .right-box {
+    border-radius: 0 0 10px 0;
+    top: -274px;
+    left: 50%;
+    position: relative;
+  }
+}
+
+/**/
